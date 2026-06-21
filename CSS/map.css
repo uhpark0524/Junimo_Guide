@@ -1,0 +1,342 @@
+body {
+  background-image: url(../img/Stardew\ wallpaper.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Mona12", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+/*농장 표지판*/
+
+.farmimg {
+  width: 300px;
+}
+
+.farm h1 {
+  position: absolute;
+  left: 150px;
+  bottom: 535px;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  color: #e37b3e;
+  background-color: transparent;
+  user-select: none;
+  text-shadow:
+    -2px -2px 0px #422416,
+    2px 2px 0px #422416,
+    8px 6px 0px #9a6454;
+  transition: transform 0.2s ease;
+  font-size: 65px;
+}
+
+/*메인 표지판*/
+.gotomainimg {
+  width: 150px;
+  margin-left: 1350px;
+  bottom: 650px;
+  position: absolute;
+}
+
+.gotomain h1 {
+  position: absolute;
+  left: 1425px;
+  bottom: 640px;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  color: #e37b3e;
+  background-color: transparent;
+  user-select: none;
+  text-shadow:
+    -2px -2px 0px #422416,
+    2px 2px 0px #422416,
+    8px 6px 0px #9a6454;
+  transition: transform 0.2s ease;
+  font-size: 40px;
+}
+
+/*평범한 농장*/
+
+.commonimg {
+  transition: transform 0.2s ease;
+  width: 400px;
+  margin-left: 10px;
+  bottom: 180px;
+  position: absolute;
+}
+.common h1 {
+  position: absolute;
+  color: #531209;
+  transition: transform 0.2s ease;
+  background-color: transparent;
+  user-select: none;
+  z-index: 10;
+  left: 190px;
+  bottom: -15px;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+}
+
+.commonbackground {
+  transition: transform 0.2s ease;
+  height: 220px;
+  width: 380px;
+  margin-left: 10px;
+  bottom: -30px;
+  position: absolute;
+}
+
+/*강변 농장*/
+
+.riversideimg {
+  transition: transform 0.2s ease;
+  width: 400px;
+  bottom: 180px;
+  margin-left: 440px;
+  position: absolute;
+}
+
+.riverside h1 {
+  position: absolute;
+  color: #531209;
+  transition: transform 0.2s ease;
+  background-color: transparent;
+  user-select: none;
+  z-index: 10;
+  left: 610px;
+  bottom: -55px;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+}
+
+.riversidebackground {
+  transition: transform 0.2s ease;
+  height: 220px;
+  width: 380px;
+  margin-left: 440px;
+  bottom: -30px;
+  position: absolute;
+}
+
+/*삼림 농장*/
+
+.forestimg {
+  transition: transform 0.2s ease;
+  width: 400px;
+  margin-left: 870px;
+  bottom: 180px;
+  position: absolute;
+}
+
+.forest h1 {
+  position: absolute;
+  color: #531209;
+  transition: transform 0.2s ease;
+  background-color: transparent;
+  user-select: none;
+  z-index: 10;
+  left: 1050px;
+  bottom: -55px;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+}
+
+.forestbackground {
+  transition: transform 0.2s ease;
+  height: 220px;
+  width: 380px;
+  margin-left: 880px;
+  bottom: -30px;
+  position: absolute;
+}
+
+/*언덕 농장*/
+
+.hillimg {
+  transition: transform 0.2s ease;
+  width: 400px;
+  margin-left: 10px;
+  bottom: -350px;
+  position: absolute;
+}
+
+.hill h1 {
+  position: absolute;
+  color: #531209;
+  transition: transform 0.2s ease;
+  background-color: transparent;
+  user-select: none;
+  z-index: 10;
+  left: 150px;
+  bottom: -565px;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+}
+
+.hillbackground {
+  transition: transform 0.2s ease;
+  height: 220px;
+  width: 380px;
+  margin-left: 10px;
+  bottom: -580px;
+  position: absolute;
+}
+
+/*네 구석 농장*/
+
+.fourcornersimg {
+  transition: transform 0.2s ease;
+  width: 350px;
+  height: 330px;
+  margin-left: 450px;
+  bottom: -350px;
+  position: absolute;
+}
+
+.fourcorners h1 {
+  position: absolute;
+  color: #531209;
+  transition: transform 0.2s ease;
+  background-color: transparent;
+  user-select: none;
+  z-index: 10;
+  left: 605px;
+  bottom: -560px;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+}
+
+.fourcornersbackground {
+  transition: transform 0.2s ease;
+  height: 220px;
+  width: 380px;
+  margin-left: 440px;
+  bottom: -580px;
+  position: absolute;
+}
+
+/*야생 농장*/
+
+.wildimg {
+  transition: transform 0.2s ease;
+  width: 400px;
+  margin-left: 850px;
+  bottom: -350px;
+  position: absolute;
+}
+
+.wild h1 {
+  position: absolute;
+  color: #531209;
+  transition: transform 0.2s ease;
+  background-color: transparent;
+  user-select: none;
+  z-index: 10;
+  left: 1045px;
+  bottom: -560px;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+}
+
+.wildbackground {
+  transition: transform 0.2s ease;
+  height: 220px;
+  width: 380px;
+  margin-left: 860px;
+  bottom: -580px;
+  position: absolute;
+}
+
+/*해변 농장*/
+
+.seashoreimg {
+  width: 400px;
+  margin-left: 10px;
+  bottom: -1000px;
+  position: absolute;
+}
+
+.seashore h1 {
+  position: absolute;
+  color: #531209;
+  transition: transform 0.2s ease;
+  background-color: transparent;
+  user-select: none;
+  z-index: 10;
+  left: 200px;
+  bottom: -1250px;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+}
+
+.seashorebackground {
+  transition: transform 0.2s ease;
+  height: 220px;
+  width: 380px;
+  margin-left: 10px;
+  bottom: -1230px;
+  position: absolute;
+}
+
+/*목초지 농장*/
+
+.grasslandimg {
+  transition: transform 0.2s ease;
+  width: 400px;
+  margin-left: 430px;
+  bottom: -900px;
+  position: absolute;
+}
+
+.grassland h1 {
+  position: absolute;
+  color: #531209;
+  transition: transform 0.2s ease;
+  background-color: transparent;
+  user-select: none;
+  z-index: 10;
+  left: 615px;
+  bottom: -1290px;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+}
+
+.grasslandbackground {
+  transition: transform 0.2s ease;
+  height: 220px;
+  width: 380px;
+  margin-left: 440px;
+  bottom: -1230px;
+  position: absolute;
+}
+
+/*마을 표지판*/
+
+.townimg {
+  width: 300px;
+  bottom: -1300px;
+  position: absolute;
+}
+
+.townbackground {
+  transition: transform 0.2s ease;
+  width: 550px;
+  margin-left: 820px;
+  bottom: -1650px;
+  position: absolute;
+}
+
+/*마을 지도*/
+
+.townpageimg {
+  width: 700px;
+  margin-left: 10px;
+  bottom: -1720px;
+  position: absolute;
+}

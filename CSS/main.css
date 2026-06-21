@@ -1,0 +1,172 @@
+body {
+  background-image: url(../img/1547801.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Mona12", sans-serif;
+  font-size: xx-large;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.svupimg {
+  width: 1100px;
+  margin-left: 215px;
+  bottom: -95px;
+  position: fixed;
+}
+
+/*mod*/
+
+.mod h1 {
+  position: fixed;
+  left: 1235px;
+  bottom: -15px;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  color: #e37b3e;
+  background-color: transparent;
+  user-select: none;
+  text-shadow:
+    -2px -2px 0px #422416,
+    2px 2px 0px #422416,
+    8px 6px 0px #9a6454;
+  transition: transform 0.2s ease;
+}
+
+.modimg {
+  transition: transform 0.2s ease;
+  width: 300px;
+  margin-left: 1055px;
+  bottom: -18px;
+  position: fixed;
+}
+
+.mod:hover .modimg {
+  transform: translateY(-40px);
+}
+
+.mod:hover h1 {
+  transform: translate(-50%, calc(-50% - 40px));
+}
+
+/*nongsa*/
+
+.nong h1 {
+  position: fixed;
+  left: 930px;
+  bottom: -15px;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  color: #e37b3e;
+  background-color: transparent;
+  user-select: none;
+  text-shadow:
+    -2px -2px 0px #422416,
+    2px 2px 0px #422416,
+    8px 6px 0px #9a6454;
+  transition: transform 0.2s ease;
+}
+
+.nongimg {
+  transition: transform 0.2s ease;
+  width: 300px;
+  margin-left: 760px;
+  bottom: -18px;
+  position: fixed;
+}
+
+.nong:hover .nongimg {
+  transform: translateY(-40px);
+}
+
+.nong:hover h1 {
+  transform: translate(-50%, calc(-50% - 40px));
+}
+
+/*map*/
+
+.map h1 {
+  position: fixed;
+  left: 320px;
+  bottom: -15px;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  color: #e37b3e;
+  background-color: transparent;
+  user-select: none;
+  text-shadow:
+    -2px -2px 0px #422416,
+    2px 2px 0px #422416,
+    8px 6px 0px #9a6454;
+  transition: transform 0.2s ease;
+}
+
+.mapimg {
+  transition: transform 0.2s ease;
+  width: 300px;
+  margin-left: 170px;
+  bottom: -18px;
+  position: fixed;
+  display: block;
+}
+
+.map:hover .mapimg {
+  transform: translateY(-40px);
+}
+
+.map:hover h1 {
+  transform: translate(-50%, calc(-50% - 40px));
+}
+
+.map {
+  display: inline-block;
+}
+
+/*villager*/
+
+.vil h1 {
+  position: fixed;
+  left: 628px;
+  bottom: -15px;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  color: #e37b3e;
+  background-color: transparent;
+  user-select: none;
+  text-shadow:
+    -2px -2px 0px #422416,
+    2px 2px 0px #422416,
+    8px 6px 0px #9a6454;
+  transition: transform 0.2s ease;
+}
+
+.vilimg {
+  transition: transform 0.2s ease;
+  width: 300px;
+  margin-left: 465px;
+  bottom: -18px;
+  position: fixed;
+}
+
+.vil:hover .vilimg {
+  transform: translateY(-40px);
+}
+
+.vil:hover h1 {
+  transform: translate(-50%, calc(-50% - 40px));
+}
+
+.mod,
+.nong,
+.map,
+.vil {
+  text-decoration: none;
+  display: inline-block;
+}

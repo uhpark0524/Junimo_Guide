@@ -1,0 +1,147 @@
+body {
+  background-image: url(../img/Stardew\ wallpaper.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Mona12", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100px;
+}
+
+.gotomainimg {
+  width: 150px;
+  margin-left: 1350px;
+  bottom: 650px;
+  position: absolute;
+}
+
+.gotomain h1 {
+  position: absolute;
+  left: 1425px;
+  bottom: 640px;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  color: #e37b3e;
+  background-color: transparent;
+  user-select: none;
+  text-shadow:
+    -2px -2px 0px #422416,
+    2px 2px 0px #422416,
+    8px 6px 0px #9a6454;
+  transition: transform 0.2s ease;
+  font-size: 40px;
+}
+
+.singleimg {
+  position: absolute;
+  width: 720px;
+  height: 220px;
+  left: 400px;
+  bottom: 550px;
+}
+
+.single h1 {
+  position: absolute;
+  left: 755px;
+  bottom: 535px;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  color: #e37b3e;
+  background-color: transparent;
+  user-select: none;
+  text-shadow:
+    -2px -2px 0px #422416,
+    2px 2px 0px #422416,
+    8px 6px 0px #9a6454;
+  transition: transform 0.2s ease;
+  font-size: 65px;
+}
+
+.Alex {
+  position: absolute;
+  width: 300px;
+  bottom: 100px;
+  left: 150px;
+}
+
+.Elliott {
+  position: absolute;
+  width: 300px;
+  bottom: 100px;
+  left: 450px;
+}
+
+.Harvey {
+  position: absolute;
+  width: 300px;
+  bottom: 100px;
+  left: 750px;
+}
+
+.Sam {
+  position: absolute;
+  width: 300px;
+  bottom: 100px;
+  left: 1050px;
+}
+
+.Sebastian {
+  position: absolute;
+  width: 300px;
+  bottom: -350px;
+  left: 150px;
+}
+
+.Shane {
+  position: absolute;
+  width: 300px;
+  bottom: -350px;
+  left: 450px;
+}
+
+.Haley {
+  position: absolute;
+  width: 300px;
+  bottom: -350px;
+  left: 750px;
+}
+
+.Leah {
+  position: absolute;
+  width: 300px;
+  bottom: -350px;
+  left: 1050px;
+}
+
+.Maru {
+  position: absolute;
+  width: 300px;
+  bottom: -800px;
+  left: 150px;
+}
+
+.Penny {
+  position: absolute;
+  width: 300px;
+  bottom: -800px;
+  left: 450px;
+}
+
+.Abigail {
+  position: absolute;
+  width: 300px;
+  bottom: -800px;
+  left: 750px;
+}
+
+.Emily {
+  position: absolute;
+  width: 300px;
+  bottom: -800px;
+  left: 1050px;
+}
