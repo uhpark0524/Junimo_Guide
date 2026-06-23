@@ -1,0 +1,43 @@
+body {
+  background-image: url("../img/Stardew\ wallpaper.jpg");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+
+  min-height: 100vh;
+  font-family: "Mona12", sans-serif;
+  font-size: xx-large;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.gotomainimg {
+  width: 150px;
+  margin-left: 1350px;
+  bottom: 650px;
+  position: absolute;
+}
+
+.gotomain h1 {
+  position: absolute;
+  left: 1425px;
+  bottom: 640px;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  color: #e37b3e;
+  background-color: transparent;
+  user-select: none;
+  text-shadow:
+    -2px -2px 0px #422416,
+    2px 2px 0px #422416,
+    8px 6px 0px #9a6454;
+  transition: transform 0.2s ease;
+  font-size: 40px;
+}
