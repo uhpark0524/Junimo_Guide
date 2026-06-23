@@ -41,3 +41,83 @@ body {
   transition: transform 0.2s ease;
   font-size: 40px;
 }
+
+/* 모드 */
+.modimg {
+  width: 500px;
+  margin-left: 100px;
+  bottom: 160px;
+  position: absolute;
+  transition: transform 0.2s ease;
+  position: fixed;
+  display: block;
+}
+
+.mod h1 {
+  position: absolute;
+  left: 345px;
+  bottom: 175px;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  color: #e37b3e;
+  background-color: transparent;
+  user-select: none;
+  text-shadow:
+    -2px -2px 0px #422416,
+    2px 2px 0px #422416,
+    8px 6px 0px #9a6454;
+  transition: transform 0.2s ease;
+  font-size: 100px;
+}
+
+.mod:hover .modimg {
+  transform: translateY(-40px);
+}
+
+.mod:hover h1 {
+  transform: translate(-50%, calc(-50% - 40px));
+}
+
+.mod {
+  display: inline-block;
+}
+
+/* 리텍 */
+.retechimg {
+  width: 500px;
+  margin-left: 800px;
+  bottom: 160px;
+  position: absolute;
+  transition: transform 0.2s ease;
+  position: fixed;
+  display: block;
+}
+
+.retech h1 {
+  position: absolute;
+  left: 1055px;
+  bottom: 175px;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  color: #e37b3e;
+  background-color: transparent;
+  user-select: none;
+  text-shadow:
+    -2px -2px 0px #422416,
+    2px 2px 0px #422416,
+    8px 6px 0px #9a6454;
+  transition: transform 0.2s ease;
+  font-size: 100px;
+}
+
+.retech:hover .retechimg {
+  transform: translateY(-40px);
+}
+
+.retech:hover h1 {
+  transform: translate(-50%, calc(-50% - 40px));
+}
+
+.retech {
+  display: inline-block;
+}
