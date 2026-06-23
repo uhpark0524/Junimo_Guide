@@ -18,14 +18,14 @@ body {
   overflow-y: auto;
 }
 
-.gotomainimg {
+.gotomodimg {
   width: 150px;
   margin-left: 1350px;
   bottom: 650px;
   position: absolute;
 }
 
-.gotomain h1 {
+.gotomod h1 {
   position: absolute;
   left: 1425px;
   bottom: 640px;
