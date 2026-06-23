@@ -1,5 +1,5 @@
 body {
-  background-image: url("../img/Stardew Valley - Luau Guide.jpg");
+  background-image: url("../img/Stardew\ wallpaper.jpg");
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
@@ -40,4 +40,32 @@ body {
     8px 6px 0px #9a6454;
   transition: transform 0.2s ease;
   font-size: 40px;
+}
+
+.wild {
+  position: absolute;
+  width: 600px;
+  left: 20px;
+  bottom: 300px;
+}
+
+.wild2 {
+  position: absolute;
+  width: 600px;
+  left: 680px;
+  bottom: 300px;
+}
+
+.fish {
+  position: absolute;
+  width: 600px;
+  left: 20px;
+  bottom: -200px;
+}
+
+.block {
+  position: absolute;
+  width: 600px;
+  left: 680px;
+  bottom: -200px;
 }
