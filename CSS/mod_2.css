@@ -41,3 +41,49 @@ body {
   transition: transform 0.2s ease;
   font-size: 40px;
 }
+
+.modexplanation1 {
+  width: 180px;
+  margin-left: 10px;
+  bottom: 60 0px;
+  position: absolute;
+}
+
+.mod1 h1 {
+  position: absolute;
+  left: 95px;
+  bottom: 635px;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  color: #e37b3e;
+  background-color: transparent;
+  user-select: none;
+  text-shadow:
+    -2px -2px 0px #422416,
+    2px 2px 0px #422416,
+    6px 4px 0px #9a6454;
+  transition: transform 0.2s ease;
+  font-size: 40px;
+}
+
+.common h1 {
+  position: absolute;
+  color: #531209;
+  transition: transform 0.2s ease;
+  background-color: transparent;
+  user-select: none;
+  z-index: 10;
+  left: 190px;
+  bottom: -15px;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+}
+
+.commonbackground {
+  transition: transform 0.2s ease;
+  height: 220px;
+  width: 380px;
+  margin-left: 10px;
+  bottom: -30px;
+  position: absolute;
+}
