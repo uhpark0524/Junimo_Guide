@@ -29,7 +29,6 @@ body {
   position: absolute;
   left: 1425px;
   bottom: 640px;
-  transform: translate(-50%, -50%);
   z-index: 10;
   color: #e37b3e;
   background-color: transparent;

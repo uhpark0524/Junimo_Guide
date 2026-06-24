@@ -24,7 +24,6 @@ body {
   position: absolute;
   left: 1425px;
   bottom: 640px;
-  transform: translate(-50%, -50%);
   z-index: 10;
   color: #e37b3e;
   background-color: transparent;
@@ -33,7 +32,6 @@ body {
     -2px -2px 0px #422416,
     2px 2px 0px #422416,
     8px 6px 0px #9a6454;
-  transition: transform 0.2s ease;
   font-size: 40px;
 }
 
@@ -49,7 +47,6 @@ body {
   position: absolute;
   left: 755px;
   bottom: 535px;
-  transform: translate(-50%, -50%);
   z-index: 10;
   color: #e37b3e;
   background-color: transparent;
@@ -58,7 +55,6 @@ body {
     -2px -2px 0px #422416,
     2px 2px 0px #422416,
     8px 6px 0px #9a6454;
-  transition: transform 0.2s ease;
   font-size: 65px;
 }
 
