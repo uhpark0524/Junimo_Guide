@@ -41,3 +41,51 @@ body {
   transition: transform 0.2s ease;
   font-size: 40px;
 }
+
+.modexplanation1 {
+  width: 180px;
+  margin-left: 10px;
+  bottom: 630px;
+  position: absolute;
+}
+
+.mod1 h1 {
+  position: absolute;
+  left: 53px;
+  bottom: 125px;
+  z-index: 10;
+  color: #e37b3e;
+  background-color: transparent;
+  user-select: none;
+  text-shadow:
+    -2px -2px 0px #422416,
+    2px 2px 0px #422416,
+    6px 4px 0px #9a6454;
+  font-size: 40px;
+}
+
+.smapi4 {
+  position: absolute;
+  width: 700px;
+  left: 220px;
+  bottom: 340px;
+}
+
+.mod1_H1 h1 {
+  position: absolute;
+  color: #531209;
+  background-color: transparent;
+  user-select: none;
+  z-index: 10;
+  left: 1010px;
+  bottom: 600px;
+  font-size: 25px;
+}
+
+.mod1_img1 {
+  width: 380px;
+  height: 300px;
+  margin-left: 940px;
+  bottom: 500px;
+  position: absolute;
+}
