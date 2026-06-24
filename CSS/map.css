@@ -32,7 +32,6 @@ body {
     -2px -2px 0px #422416,
     2px 2px 0px #422416,
     8px 6px 0px #9a6454;
-  transition: transform 0.2s ease;
   font-size: 65px;
 }
 
@@ -57,14 +56,12 @@ body {
     -2px -2px 0px #422416,
     2px 2px 0px #422416,
     8px 6px 0px #9a6454;
-  transition: transform 0.2s ease;
   font-size: 40px;
 }
 
 /*평범한 농장*/
 
 .commonimg {
-  transition: transform 0.2s ease;
   width: 400px;
   margin-left: 10px;
   bottom: 180px;
@@ -73,7 +70,6 @@ body {
 .common h1 {
   position: absolute;
   color: #531209;
-  transition: transform 0.2s ease;
   background-color: transparent;
   user-select: none;
   z-index: 10;
@@ -84,7 +80,6 @@ body {
 }
 
 .commonbackground {
-  transition: transform 0.2s ease;
   height: 220px;
   width: 380px;
   margin-left: 10px;
@@ -95,7 +90,6 @@ body {
 /*강변 농장*/
 
 .riversideimg {
-  transition: transform 0.2s ease;
   width: 400px;
   bottom: 180px;
   margin-left: 440px;
@@ -105,7 +99,6 @@ body {
 .riverside h1 {
   position: absolute;
   color: #531209;
-  transition: transform 0.2s ease;
   background-color: transparent;
   user-select: none;
   z-index: 10;
@@ -116,7 +109,6 @@ body {
 }
 
 .riversidebackground {
-  transition: transform 0.2s ease;
   height: 220px;
   width: 380px;
   margin-left: 440px;
@@ -127,7 +119,6 @@ body {
 /*삼림 농장*/
 
 .forestimg {
-  transition: transform 0.2s ease;
   width: 400px;
   margin-left: 870px;
   bottom: 180px;
@@ -137,7 +128,6 @@ body {
 .forest h1 {
   position: absolute;
   color: #531209;
-  transition: transform 0.2s ease;
   background-color: transparent;
   user-select: none;
   z-index: 10;
@@ -148,7 +138,6 @@ body {
 }
 
 .forestbackground {
-  transition: transform 0.2s ease;
   height: 220px;
   width: 380px;
   margin-left: 880px;
@@ -159,7 +148,6 @@ body {
 /*언덕 농장*/
 
 .hillimg {
-  transition: transform 0.2s ease;
   width: 400px;
   margin-left: 10px;
   bottom: -350px;
@@ -169,7 +157,6 @@ body {
 .hill h1 {
   position: absolute;
   color: #531209;
-  transition: transform 0.2s ease;
   background-color: transparent;
   user-select: none;
   z-index: 10;
@@ -180,7 +167,6 @@ body {
 }
 
 .hillbackground {
-  transition: transform 0.2s ease;
   height: 220px;
   width: 380px;
   margin-left: 10px;
@@ -191,7 +177,6 @@ body {
 /*네 구석 농장*/
 
 .fourcornersimg {
-  transition: transform 0.2s ease;
   width: 350px;
   height: 330px;
   margin-left: 450px;
@@ -202,7 +187,6 @@ body {
 .fourcorners h1 {
   position: absolute;
   color: #531209;
-  transition: transform 0.2s ease;
   background-color: transparent;
   user-select: none;
   z-index: 10;
@@ -213,7 +197,6 @@ body {
 }
 
 .fourcornersbackground {
-  transition: transform 0.2s ease;
   height: 220px;
   width: 380px;
   margin-left: 440px;
@@ -224,7 +207,6 @@ body {
 /*야생 농장*/
 
 .wildimg {
-  transition: transform 0.2s ease;
   width: 400px;
   margin-left: 850px;
   bottom: -350px;
@@ -234,7 +216,6 @@ body {
 .wild h1 {
   position: absolute;
   color: #531209;
-  transition: transform 0.2s ease;
   background-color: transparent;
   user-select: none;
   z-index: 10;
@@ -245,7 +226,6 @@ body {
 }
 
 .wildbackground {
-  transition: transform 0.2s ease;
   height: 220px;
   width: 380px;
   margin-left: 860px;
@@ -265,7 +245,6 @@ body {
 .seashore h1 {
   position: absolute;
   color: #531209;
-  transition: transform 0.2s ease;
   background-color: transparent;
   user-select: none;
   z-index: 10;
@@ -276,7 +255,6 @@ body {
 }
 
 .seashorebackground {
-  transition: transform 0.2s ease;
   height: 220px;
   width: 380px;
   margin-left: 10px;
@@ -287,7 +265,6 @@ body {
 /*목초지 농장*/
 
 .grasslandimg {
-  transition: transform 0.2s ease;
   width: 400px;
   margin-left: 430px;
   bottom: -900px;
@@ -297,7 +274,6 @@ body {
 .grassland h1 {
   position: absolute;
   color: #531209;
-  transition: transform 0.2s ease;
   background-color: transparent;
   user-select: none;
   z-index: 10;
@@ -308,7 +284,6 @@ body {
 }
 
 .grasslandbackground {
-  transition: transform 0.2s ease;
   height: 220px;
   width: 380px;
   margin-left: 440px;
@@ -325,7 +300,6 @@ body {
 }
 
 .townbackground {
-  transition: transform 0.2s ease;
   width: 550px;
   margin-left: 820px;
   bottom: -1650px;
