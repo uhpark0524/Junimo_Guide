@@ -30,8 +30,8 @@ body {
 
 .gotomod h1 {
   position: absolute;
-  left: 1425px;
-  bottom: 640px;
+  left: 1388px;
+  bottom: 660px;
   z-index: 10;
   color: #e37b3e;
   background-color: transparent;
@@ -39,8 +39,7 @@ body {
   text-shadow:
     -2px -2px 0px #422416,
     2px 2px 0px #422416,
-    8px 6px 0px #9a6454; /* 입체 텍스트 그림자 */
-  transition: transform 0.2s ease;
+    8px 6px 0px #9a6454;
   font-size: 40px;
 }
 
