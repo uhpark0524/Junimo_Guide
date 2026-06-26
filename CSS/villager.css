@@ -22,8 +22,8 @@ body {
 
 .gotomain h1 {
   position: absolute;
-  left: 1425px;
-  bottom: 640px;
+  left: 1390px;
+  bottom: 660px;
   z-index: 10;
   color: #e37b3e;
   background-color: transparent;
@@ -45,8 +45,8 @@ body {
 
 .single h1 {
   position: absolute;
-  left: 755px;
-  bottom: 535px;
+  left: 690px;
+  bottom: 570px;
   z-index: 10;
   color: #e37b3e;
   background-color: transparent;
